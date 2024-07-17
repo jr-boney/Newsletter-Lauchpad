@@ -9,75 +9,84 @@
             font-family: 'Verdana', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #eef2f3;
+            background-color: #f5f7fa;
             color: #333;
         }
         .container {
             width: 90%;
             margin: 0 auto;
             background-color: #fff;
-            padding: 25px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            transition: box-shadow 0.3s;
+        }
+        .container:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
         .header {
             text-align: center;
-            padding: 25px 0;
-            background-color: #3498db;
+            padding: 30px 0;
+            background-color: #1abc9c;
             color: white;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
         }
         .header h1 {
             margin: 0;
-            font-size: 2.8em;
+            font-size: 2.5em;
+            letter-spacing: 1px;
         }
         .content {
-            padding: 25px;
+            padding: 30px;
         }
         .section {
             margin-bottom: 25px;
         }
         .section h2 {
-            color: #3498db;
-            border-bottom: 3px solid #3498db;
+            color: #1abc9c;
+            border-bottom: 2px solid #1abc9c;
             padding-bottom: 8px;
+            font-size: 1.8em;
         }
         .section p {
             line-height: 1.8;
+            font-size: 1.1em;
+            margin: 15px 0;
         }
         a {
-            color: #3498db;
+            color: #1abc9c;
             text-decoration: none;
+            font-weight: bold;
         }
         .cta {
-            display: block;
-            width: 220px;
+            display: inline-block;
             margin: 25px auto;
-            padding: 12px 0;
-            background-color: #3498db;
+            padding: 12px 30px;
+            background-color: #1abc9c;
             color: white;
             text-align: center;
             text-decoration: none;
             border-radius: 6px;
-            transition: background-color 0.3s;
+            transition: background-color 0.3s, transform 0.3s;
         }
         .cta:hover {
-            background-color: #2980b9;
+            background-color: #16a085;
+            transform: translateY(-2px);
         }
         .author {
             text-align: center;
-            margin-top: 25px;
+            margin-top: 30px;
             font-style: italic;
-            color: #666;
+            color: #555;
         }
         .footer {
             text-align: center;
-            padding: 12px 0;
-            background-color: #3498db;
+            padding: 15px 0;
+            background-color: #1abc9c;
             color: white;
-            border-bottom-left-radius: 10px;
-            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
         }
     </style>
 </head>
@@ -89,17 +98,17 @@
         <div class="content">
             <div class="section">
                 <h2>Welcome Note</h2>
-                <p>IEEE LaunchPad Kerala stands as one of the most prestigious events under the IEEE Kerala Section, in collaboration with GTech MuLearn. It aims to foster opportunities for engineering students and graduates by enabling a seamless exchange of ideas and expertise.</p>
+                <p>IEEE LaunchPad Kerala is a prestigious event hosted by the IEEE Kerala Section in collaboration with GTech MuLearn. The event aims to foster opportunities for engineering students and graduates by enabling seamless exchange of ideas and expertise.</p>
             </div>
             <div class="section">
                 <h2>Get Involved</h2>
-                <p>Launchpad Kerala 2024 is a premier job fair connecting talented individuals with leading companies in the tech and engineering sectors. This initiative by IEEE Kerala Section and GTech MuLearn aims to advance and innovate within Kerala's employment landscape.</p>
+                <p>Launchpad Kerala 2024 is a premier job fair that connects talented individuals with leading companies in the tech and engineering sectors. This initiative by IEEE Kerala Section and GTech MuLearn aims to propel advancement and innovation within Kerala's employment landscape.</p>
                 <p><a href="https://www.launchpadkerala.com" class="cta">Join Now</a></p>
             </div>
             <div class="section">
                 <h2>Recap: Launchpad Kerala 2023</h2>
                 <p>The annual job fair, hosted by IEEE Kerala Section and GTech MuLearn, and sponsored by the Kerala Knowledge Economy Mission (KKEM) and the National Institute of Electronics & Information Technology (NIELIT), was a significant milestone for professionals and job seekers.</p>
-                <p>This event brought together a diverse array of talented individuals, cutting-edge technology companies, and industry experts, creating an environment ripe with opportunities and innovation. Job seekers had the chance to interact with renowned organizations, gain valuable insights, and explore potential career paths.</p>
+                <p>The event brought together a diverse array of talented individuals, cutting-edge technology companies, and industry experts, creating an environment ripe with opportunities and innovation. Job seekers had the chance to interact with renowned organizations, gain valuable insights, and explore potential career paths.</p>
             </div>
             <div class="section">
                 <h2>Important Update: Online Aptitude and Mock Test</h2>
@@ -127,10 +136,10 @@
             </div>
         </div>
         <div class="author">
-            <p>Author: Aswin krishna (<a href=" ">xxx@gmail.com</a>)</p>
+            <p>Made with love by Aswin krishna (<a href=" ">xxxx@gmail.com</a>)</p>
         </div>
         <div class="footer">
-            <p>© 2024 IEEE LaunchPad Kerala. All rights reserved.</p>
+            <p>© 2024 LaunchPad Kerala. All rights reserved.</p>
         </div>
     </div>
 </body>
